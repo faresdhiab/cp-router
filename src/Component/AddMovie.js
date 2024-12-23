@@ -36,7 +36,7 @@ handleClose();
   return (
     <>
     <Button variant="primary" onClick={handleShow}>
-      Launch demo modal
+      Add Movie
     </Button>
 
     <Modal show={show} onHide={handleClose}>
