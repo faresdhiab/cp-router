@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  
+}
+
+.image{
+  width: 50%;
+}
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+}
