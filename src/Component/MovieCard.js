@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const MovieCard = ({movie}) => {
   return (
@@ -12,8 +13,10 @@ const MovieCard = ({movie}) => {
         </Card.Text>
         <Card.Text>{movie.rate}
         </Card.Text>
+        <Link to ={`/movie/${movie.id}`}>
+        <Button variant="primary">Description</Button>
+        </Link>
         
-        <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
   );
